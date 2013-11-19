@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dcc7e8de-61de-4b28-868f-2a760a2c592b" name="Udane@UDANE-PC 2013-11-17 20:10:54" runUser="Udane-PC\Udane" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a4a3c703-e8d7-4505-bda8-f44b0827b01b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Udane_UDANE-PC 2013-11-17 20_10_54">
+      <DeploymentItem filename="D:\UDANE\Dropbox\SPQueryGenerator\SPQueryGenerator\bin\Debug\SPQueryGenerator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-17T20:10:54.7154000+01:00" queuing="2013-11-17T20:10:54.7284000+01:00" start="2013-11-17T20:10:54.7454000+01:00" finish="2013-11-17T20:10:55.1654000+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Add_AnotherStringParam_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="80a629ee-b8c0-22d7-ee85-3e122ab7c5de">
+      <Execution id="4b80057f-866d-4e87-bf14-dc77641bea77" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_AnotherStringParam_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_OneStringParam_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="768b1f98-b1d5-bd63-327a-3708b767af69">
+      <Execution id="2d27908f-c3c4-4e0e-ac82-e9d54ed21136" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_OneStringParam_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_ThreeStringParams_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="a7a73d93-f7e5-3c17-914c-b303eaf4047e">
+      <Execution id="2ff5db2c-e818-4913-9f90-a7a4bb41a358" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_ThreeStringParams_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_FourStringParams_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="9db06ff5-fc8f-672e-049c-a23cd2790d1a">
+      <Execution id="f666c414-9c46-42b7-8ae5-a255c01811f5" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_FourStringParams_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_TwoIntegerParam_ReturnsTypedQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="1555f5b8-91d7-55f5-fbe8-8de3c4a50e51">
+      <Execution id="d323748f-d530-48b2-944d-f2dea30fa400" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_TwoIntegerParam_ReturnsTypedQuery" />
+    </UnitTest>
+    <UnitTest name="Add_OneIntegerParam_ReturnsTypedQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="85871807-8726-aa35-9ba6-ff604a775700">
+      <Execution id="75cbc27d-5073-4eea-bbcc-18e496f37a0e" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_OneIntegerParam_ReturnsTypedQuery" />
+    </UnitTest>
+    <UnitTest name="Add_TwoStringParams_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="0f5253f4-2d95-9022-5a24-efe796589e59">
+      <Execution id="5a733150-79e8-4faf-889c-9cd434ed72e0" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_TwoStringParams_ReturnsQuery" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0f5253f4-2d95-9022-5a24-efe796589e59" executionId="5a733150-79e8-4faf-889c-9cd434ed72e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1555f5b8-91d7-55f5-fbe8-8de3c4a50e51" executionId="d323748f-d530-48b2-944d-f2dea30fa400" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="768b1f98-b1d5-bd63-327a-3708b767af69" executionId="2d27908f-c3c4-4e0e-ac82-e9d54ed21136" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80a629ee-b8c0-22d7-ee85-3e122ab7c5de" executionId="4b80057f-866d-4e87-bf14-dc77641bea77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85871807-8726-aa35-9ba6-ff604a775700" executionId="75cbc27d-5073-4eea-bbcc-18e496f37a0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9db06ff5-fc8f-672e-049c-a23cd2790d1a" executionId="f666c414-9c46-42b7-8ae5-a255c01811f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7a73d93-f7e5-3c17-914c-b303eaf4047e" executionId="2ff5db2c-e818-4913-9f90-a7a4bb41a358" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5a733150-79e8-4faf-889c-9cd434ed72e0" testId="0f5253f4-2d95-9022-5a24-efe796589e59" testName="Add_TwoStringParams_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0157517" startTime="2013-11-17T20:10:54.8044000+01:00" endTime="2013-11-17T20:10:55.0794000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a733150-79e8-4faf-889c-9cd434ed72e0">
+    </UnitTestResult>
+    <UnitTestResult executionId="d323748f-d530-48b2-944d-f2dea30fa400" testId="1555f5b8-91d7-55f5-fbe8-8de3c4a50e51" testName="Add_TwoIntegerParam_ReturnsTypedQuery" computerName="UDANE-PC" duration="00:00:00.0002830" startTime="2013-11-17T20:10:55.0814000+01:00" endTime="2013-11-17T20:10:55.0904000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d323748f-d530-48b2-944d-f2dea30fa400">
+    </UnitTestResult>
+    <UnitTestResult executionId="2d27908f-c3c4-4e0e-ac82-e9d54ed21136" testId="768b1f98-b1d5-bd63-327a-3708b767af69" testName="Add_OneStringParam_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0002242" startTime="2013-11-17T20:10:55.0944000+01:00" endTime="2013-11-17T20:10:55.1024000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d27908f-c3c4-4e0e-ac82-e9d54ed21136">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b80057f-866d-4e87-bf14-dc77641bea77" testId="80a629ee-b8c0-22d7-ee85-3e122ab7c5de" testName="Add_AnotherStringParam_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0002284" startTime="2013-11-17T20:10:55.1064000+01:00" endTime="2013-11-17T20:10:55.1114000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b80057f-866d-4e87-bf14-dc77641bea77">
+    </UnitTestResult>
+    <UnitTestResult executionId="75cbc27d-5073-4eea-bbcc-18e496f37a0e" testId="85871807-8726-aa35-9ba6-ff604a775700" testName="Add_OneIntegerParam_ReturnsTypedQuery" computerName="UDANE-PC" duration="00:00:00.0002330" startTime="2013-11-17T20:10:55.1154000+01:00" endTime="2013-11-17T20:10:55.1214000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75cbc27d-5073-4eea-bbcc-18e496f37a0e">
+    </UnitTestResult>
+    <UnitTestResult executionId="f666c414-9c46-42b7-8ae5-a255c01811f5" testId="9db06ff5-fc8f-672e-049c-a23cd2790d1a" testName="Add_FourStringParams_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0002611" startTime="2013-11-17T20:10:55.1244000+01:00" endTime="2013-11-17T20:10:55.1304000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f666c414-9c46-42b7-8ae5-a255c01811f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ff5db2c-e818-4913-9f90-a7a4bb41a358" testId="a7a73d93-f7e5-3c17-914c-b303eaf4047e" testName="Add_ThreeStringParams_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0002488" startTime="2013-11-17T20:10:55.1334000+01:00" endTime="2013-11-17T20:10:55.1394000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ff5db2c-e818-4913-9f90-a7a4bb41a358">
+    </UnitTestResult>
+  </Results>
+</TestRun>

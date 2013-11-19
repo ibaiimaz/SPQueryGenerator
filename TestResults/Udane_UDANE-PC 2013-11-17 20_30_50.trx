@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="13daf523-df8e-4d18-920e-14225a209827" name="Udane@UDANE-PC 2013-11-17 20:30:50" runUser="Udane-PC\Udane" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a4a3c703-e8d7-4505-bda8-f44b0827b01b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Udane_UDANE-PC 2013-11-17 20_30_50">
+      <DeploymentItem filename="D:\UDANE\Dropbox\SPQueryGenerator\SPQueryGenerator\bin\Debug\SPQueryGenerator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-17T20:30:50.2124000+01:00" queuing="2013-11-17T20:30:50.2284000+01:00" start="2013-11-17T20:30:50.2554000+01:00" finish="2013-11-17T20:30:51.0064000+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="2" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Add_OneTextParam_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="ca19937a-44f7-05a7-d742-ece0c45945fc">
+      <Execution id="ca06f74b-81b6-4bdf-bba6-d11506b1ed53" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_OneTextParam_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_AnotherTextParam_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="6b9ff9fe-ce86-419c-762a-dc1195193241">
+      <Execution id="0dbcb1e3-a335-421c-ba0c-0d793a0c1a7f" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_AnotherTextParam_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_OneIntegerParam_ReturnsTypedQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="85871807-8726-aa35-9ba6-ff604a775700">
+      <Execution id="cc7753c8-eb67-41b3-80cd-8e0af449c7b2" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_OneIntegerParam_ReturnsTypedQuery" />
+    </UnitTest>
+    <UnitTest name="Add_TwoIntegerParam_ReturnsTypedQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="1555f5b8-91d7-55f5-fbe8-8de3c4a50e51">
+      <Execution id="3c0e05c7-e621-4b17-a8db-b789bc45e240" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_TwoIntegerParam_ReturnsTypedQuery" />
+    </UnitTest>
+    <UnitTest name="Add_TwoTextParams_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="c38ee134-290e-942e-c9ab-6fca22313dae">
+      <Execution id="5f949cc3-e1c9-441c-b654-db99339178d9" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_TwoTextParams_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_FourTextParams_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="96dc6a2c-6bb9-774c-8b34-f885620eb2cf">
+      <Execution id="fa6d347d-b439-4879-8053-251fda9e522b" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_FourTextParams_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_ThreeTextParams_ReturnsQuery" storage="d:\udane\dropbox\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="322d3e75-dd9a-1c05-6ec9-9ce92eb5dfc2">
+      <Execution id="83de3417-0da4-4d63-830d-3541cd17215a" />
+      <TestMethod codeBase="D:/UDANE/Dropbox/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_ThreeTextParams_ReturnsQuery" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1555f5b8-91d7-55f5-fbe8-8de3c4a50e51" executionId="3c0e05c7-e621-4b17-a8db-b789bc45e240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="322d3e75-dd9a-1c05-6ec9-9ce92eb5dfc2" executionId="83de3417-0da4-4d63-830d-3541cd17215a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b9ff9fe-ce86-419c-762a-dc1195193241" executionId="0dbcb1e3-a335-421c-ba0c-0d793a0c1a7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85871807-8726-aa35-9ba6-ff604a775700" executionId="cc7753c8-eb67-41b3-80cd-8e0af449c7b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96dc6a2c-6bb9-774c-8b34-f885620eb2cf" executionId="fa6d347d-b439-4879-8053-251fda9e522b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c38ee134-290e-942e-c9ab-6fca22313dae" executionId="5f949cc3-e1c9-441c-b654-db99339178d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca19937a-44f7-05a7-d742-ece0c45945fc" executionId="ca06f74b-81b6-4bdf-bba6-d11506b1ed53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3c0e05c7-e621-4b17-a8db-b789bc45e240" testId="1555f5b8-91d7-55f5-fbe8-8de3c4a50e51" testName="Add_TwoIntegerParam_ReturnsTypedQuery" computerName="UDANE-PC" duration="00:00:00.0164782" startTime="2013-11-17T20:30:50.3504000+01:00" endTime="2013-11-17T20:30:50.5754000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c0e05c7-e621-4b17-a8db-b789bc45e240">
+    </UnitTestResult>
+    <UnitTestResult executionId="83de3417-0da4-4d63-830d-3541cd17215a" testId="322d3e75-dd9a-1c05-6ec9-9ce92eb5dfc2" testName="Add_ThreeTextParams_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0251971" startTime="2013-11-17T20:30:50.6104000+01:00" endTime="2013-11-17T20:30:50.6824000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83de3417-0da4-4d63-830d-3541cd17215a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&lt;Where&gt;&lt;And&gt;&lt;And&gt;&lt;Eq&gt;&lt;FieldRef Name='field1' /&gt;&lt;Value Type='Text'&gt;value1&lt;/Value&gt;&lt;/Eq&gt;&lt;Eq&gt;&lt;FieldRef Name='field2' /&gt;&lt;Value Type='Text'&gt;value2&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;Eq&gt;&lt;FieldRef Name='field3' /&gt;&lt;Value Type='Text'&gt;value3&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;/Where&gt;&gt;. Actual:&lt;&lt;Where&gt;&lt;And&gt;&lt;And&gt;&lt;Eq&gt;&lt;FieldRef Name='field1' /&gt;&lt;Value Type='String'&gt;value1&lt;/Value&gt;&lt;/Eq&gt;&lt;Eq&gt;&lt;FieldRef Name='field2' /&gt;&lt;Value Type='String'&gt;value2&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;Eq&gt;&lt;FieldRef Name='field3' /&gt;&lt;Value Type='String'&gt;value3&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;/Where&gt;&gt;. </Message>
+          <StackTrace>   at SPQueryCalculatorTests.CalculatorTest.Add_ThreeTextParams_ReturnsQuery() in D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\CalculatorTest.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0dbcb1e3-a335-421c-ba0c-0d793a0c1a7f" testId="6b9ff9fe-ce86-419c-762a-dc1195193241" testName="Add_AnotherTextParam_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0055840" startTime="2013-11-17T20:30:50.6984000+01:00" endTime="2013-11-17T20:30:50.7134000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dbcb1e3-a335-421c-ba0c-0d793a0c1a7f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef Name='field2' /&gt;&lt;Value Type='Text'&gt;value2&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;&gt;. Actual:&lt;&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef Name='field2' /&gt;&lt;Value Type='String'&gt;value2&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;&gt;. </Message>
+          <StackTrace>   at SPQueryCalculatorTests.CalculatorTest.Add_AnotherTextParam_ReturnsQuery() in D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\CalculatorTest.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc7753c8-eb67-41b3-80cd-8e0af449c7b2" testId="85871807-8726-aa35-9ba6-ff604a775700" testName="Add_OneIntegerParam_ReturnsTypedQuery" computerName="UDANE-PC" duration="00:00:00.0002699" startTime="2013-11-17T20:30:50.7194000+01:00" endTime="2013-11-17T20:30:50.7344000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc7753c8-eb67-41b3-80cd-8e0af449c7b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="fa6d347d-b439-4879-8053-251fda9e522b" testId="96dc6a2c-6bb9-774c-8b34-f885620eb2cf" testName="Add_FourTextParams_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0015620" startTime="2013-11-17T20:30:50.7404000+01:00" endTime="2013-11-17T20:30:50.7504000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa6d347d-b439-4879-8053-251fda9e522b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&lt;Where&gt;&lt;And&gt;&lt;And&gt;&lt;And&gt;&lt;Eq&gt;&lt;FieldRef Name='field1' /&gt;&lt;Value Type='Text'&gt;value1&lt;/Value&gt;&lt;/Eq&gt;&lt;Eq&gt;&lt;FieldRef Name='field2' /&gt;&lt;Value Type='Text'&gt;value2&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;Eq&gt;&lt;FieldRef Name='field3' /&gt;&lt;Value Type='Text'&gt;value3&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;Eq&gt;&lt;FieldRef Name='field4' /&gt;&lt;Value Type='Text'&gt;value4&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;/Where&gt;&gt;. Actual:&lt;&lt;Where&gt;&lt;And&gt;&lt;And&gt;&lt;And&gt;&lt;Eq&gt;&lt;FieldRef Name='field1' /&gt;&lt;Value Type='String'&gt;value1&lt;/Value&gt;&lt;/Eq&gt;&lt;Eq&gt;&lt;FieldRef Name='field2' /&gt;&lt;Value Type='String'&gt;value2&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;Eq&gt;&lt;FieldRef Name='field3' /&gt;&lt;Value Type='String'&gt;value3&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;Eq&gt;&lt;FieldRef Name='field4' /&gt;&lt;Value Type='String'&gt;value4&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;/Where&gt;&gt;. </Message>
+          <StackTrace>   at SPQueryCalculatorTests.CalculatorTest.Add_FourTextParams_ReturnsQuery() in D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\CalculatorTest.cs:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f949cc3-e1c9-441c-b654-db99339178d9" testId="c38ee134-290e-942e-c9ab-6fca22313dae" testName="Add_TwoTextParams_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0017018" startTime="2013-11-17T20:30:50.7564000+01:00" endTime="2013-11-17T20:30:50.7674000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f949cc3-e1c9-441c-b654-db99339178d9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&lt;Where&gt;&lt;And&gt;&lt;Eq&gt;&lt;FieldRef Name='field1' /&gt;&lt;Value Type='Text'&gt;value1&lt;/Value&gt;&lt;/Eq&gt;&lt;Eq&gt;&lt;FieldRef Name='field2' /&gt;&lt;Value Type='Text'&gt;value2&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;/Where&gt;&gt;. Actual:&lt;&lt;Where&gt;&lt;And&gt;&lt;Eq&gt;&lt;FieldRef Name='field1' /&gt;&lt;Value Type='String'&gt;value1&lt;/Value&gt;&lt;/Eq&gt;&lt;Eq&gt;&lt;FieldRef Name='field2' /&gt;&lt;Value Type='String'&gt;value2&lt;/Value&gt;&lt;/Eq&gt;&lt;/And&gt;&lt;/Where&gt;&gt;. </Message>
+          <StackTrace>   at SPQueryCalculatorTests.CalculatorTest.Add_TwoTextParams_ReturnsQuery() in D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\CalculatorTest.cs:line 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca06f74b-81b6-4bdf-bba6-d11506b1ed53" testId="ca19937a-44f7-05a7-d742-ece0c45945fc" testName="Add_OneTextParam_ReturnsQuery" computerName="UDANE-PC" duration="00:00:00.0021707" startTime="2013-11-17T20:30:50.7744000+01:00" endTime="2013-11-17T20:30:50.7934000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca06f74b-81b6-4bdf-bba6-d11506b1ed53">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef Name='field' /&gt;&lt;Value Type='Text'&gt;value&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;&gt;. Actual:&lt;&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef Name='field' /&gt;&lt;Value Type='String'&gt;value&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;&gt;. </Message>
+          <StackTrace>   at SPQueryCalculatorTests.CalculatorTest.Add_OneTextParam_ReturnsQuery() in D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\CalculatorTest.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

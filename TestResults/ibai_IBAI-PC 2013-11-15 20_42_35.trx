@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b2368d34-37db-4c20-bc1b-58f129c9bb4e" name="ibai@IBAI-PC 2013-11-15 20:42:35" runUser="ibai-PC\ibai" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a4a3c703-e8d7-4505-bda8-f44b0827b01b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ibai_IBAI-PC 2013-11-15 20_42_35">
+      <DeploymentItem filename="D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryGenerator\bin\Debug\SPQueryGenerator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-15T20:42:35.2915343+01:00" queuing="2013-11-15T20:42:36.8266221+01:00" start="2013-11-15T20:42:37.0066324+01:00" finish="2013-11-15T20:42:52.4915181+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="IBAI-PC" outcome="Error" timestamp="2013-11-15T20:42:52.4795174+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Add_OneParam_ReturnsQuery" storage="d:\dropbox\ibai\github\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="ad4fe36f-a9d9-ae87-34ed-d78a9aab8877">
+      <Execution id="2807ad6d-2441-4e17-a733-aaa4e81d670b" />
+      <TestMethod codeBase="D:/Dropbox/ibai/GitHub/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_OneParam_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_AnotherParam_ReturnsQuery" storage="d:\dropbox\ibai\github\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="77fda760-b1f0-dd49-6e01-c52b88fcb371">
+      <Execution id="5794f50e-bdd4-4adf-86be-2b24975d445f" />
+      <TestMethod codeBase="D:/Dropbox/ibai/GitHub/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_AnotherParam_ReturnsQuery" />
+    </UnitTest>
+    <UnitTest name="Add_TwoParams_ReturnsQuery" storage="d:\dropbox\ibai\github\spquerygenerator\spquerycalculatortests\bin\debug\spquerycalculatortests.dll" id="479fcd85-4384-7c2e-e569-8873b41a90d8">
+      <Execution id="bfca61d8-b135-4fc8-be16-89d104598262" />
+      <TestMethod codeBase="D:/Dropbox/ibai/GitHub/SPQueryGenerator/SPQueryCalculatorTests/bin/Debug/SPQueryCalculatorTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SPQueryCalculatorTests.CalculatorTest, SPQueryCalculatorTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_TwoParams_ReturnsQuery" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="479fcd85-4384-7c2e-e569-8873b41a90d8" executionId="bfca61d8-b135-4fc8-be16-89d104598262" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77fda760-b1f0-dd49-6e01-c52b88fcb371" executionId="5794f50e-bdd4-4adf-86be-2b24975d445f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad4fe36f-a9d9-ae87-34ed-d78a9aab8877" executionId="2807ad6d-2441-4e17-a733-aaa4e81d670b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bfca61d8-b135-4fc8-be16-89d104598262" testId="479fcd85-4384-7c2e-e569-8873b41a90d8" testName="Add_TwoParams_ReturnsQuery" computerName="IBAI-PC" duration="00:00:15.2978750" startTime="2013-11-15T20:42:37.1856426+01:00" endTime="2013-11-15T20:42:52.4835176+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfca61d8-b135-4fc8-be16-89d104598262">
+    </UnitTestResult>
+    <UnitTestResult executionId="5794f50e-bdd4-4adf-86be-2b24975d445f" testId="77fda760-b1f0-dd49-6e01-c52b88fcb371" testName="Add_AnotherParam_ReturnsQuery" computerName="IBAI-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5794f50e-bdd4-4adf-86be-2b24975d445f">
+    </UnitTestResult>
+    <UnitTestResult executionId="2807ad6d-2441-4e17-a733-aaa4e81d670b" testId="ad4fe36f-a9d9-ae87-34ed-d78a9aab8877" testName="Add_OneParam_ReturnsQuery" computerName="IBAI-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2807ad6d-2441-4e17-a733-aaa4e81d670b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

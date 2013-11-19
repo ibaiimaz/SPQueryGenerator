@@ -1,0 +1,14 @@
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryCalculatorTests\obj\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryCalculatorTests\bin\Debug\SPQueryCalculatorTests.dll
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryCalculatorTests\bin\Debug\SPQueryCalculatorTests.pdb
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryCalculatorTests\bin\Debug\SPQueryGenerator.dll
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryCalculatorTests\bin\Debug\SPQueryGenerator.pdb
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryCalculatorTests\obj\Debug\SPQueryCalculatorTests.dll
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryCalculatorTests\obj\Debug\SPQueryCalculatorTests.pdb
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\obj\Debug\ResolveAssemblyReference.cache
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\obj\Debug\SPQueryCalculatorTests.dll
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\bin\Debug\SPQueryCalculatorTests.dll
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\bin\Debug\SPQueryCalculatorTests.pdb
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\bin\Debug\SPQueryGenerator.dll
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\bin\Debug\SPQueryGenerator.pdb
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryCalculatorTests\obj\Debug\SPQueryCalculatorTests.pdb

@@ -1,0 +1,10 @@
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryGenerator\bin\Debug\SPQueryGenerator.dll
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryGenerator\bin\Debug\SPQueryGenerator.pdb
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryGenerator\obj\Debug\SPQueryGenerator.dll
+D:\Dropbox\ibai\GitHub\SPQueryGenerator\SPQueryGenerator\obj\Debug\SPQueryGenerator.pdb
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryGenerator\bin\Debug\SPQueryGenerator.dll
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryGenerator\bin\Debug\SPQueryGenerator.pdb
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryGenerator\obj\Debug\SPQueryGenerator.dll
+D:\UDANE\Dropbox\SPQueryGenerator\SPQueryGenerator\obj\Debug\SPQueryGenerator.pdb
